@@ -27,7 +27,7 @@ server.listen(3000, () => {
 });
 
 //DB
-const MONGO_URL = 'mongodb+srv://lucasbissi2006iTgiso105bK4C2fI:iTgiso105bK4C2fI@cluster1.xbqty.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
+const MONGO_URL = //your connection;
 mongoose.Promise = Promise; //Promises are a programming pattern, handling asynchronous operations to avoid the "callback hell" problem.
 mongoose.connect(MONGO_URL);
 mongoose.connection.on('error', (error: Error) => console.log(error));
